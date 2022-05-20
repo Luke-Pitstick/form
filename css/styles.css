@@ -6,11 +6,10 @@
 
 .main-container {
     display: flex;
-    
 }
 
 .image-divider {
-    background-color: rgb(60, 88, 171);
+    background-image: url('/images/scenary.jpg');
     height: 100vh;
     width: 40vw;
     display: flex;
