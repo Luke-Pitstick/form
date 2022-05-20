@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Luke's Form</title>
+</head>
+<body>
+    <div class="main-container" >
+        <div class="image-divider">
+            <div class="header">
+                <div id="form-name">Luke's Form</div>
+            </div> 
+        </div>
+        <div class="form-divider">
+            <div class="header">
+                <p>This is a basic form that doesn't do anything special. But you can click here to "sign up".</p>
+            </div>
+            <div class="form-container">
+                <div class="form">
+                    <h1>Sign Up</h1>
+                    <form>
+                        <div class="column">
+                            <div>
+                                <label for="first_name">First Name:</label>
+                                <input type="text" name="first_name" id="first_name" required>
+                            </div>
+
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+
+                            <div>
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+
+                    
+                        </div>
+                        <div class="column">
+                            <div>
+                                <label for="last_name">Last Name:</label>
+                                <input type="text" name="last_name" id="last_name" required>
+                            </div>
+
+                            <div>
+                                <label for="phone_number">Phone Number:</label>
+                                <input type="tel" name="phone_number" id="phone_number" required>
+                            </div>
+
+                            <div>
+                                <label for="confirm_password">Confirm Password:</label>
+                                <input type="password" name="confirm_password" id="confirm_password" required>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="submit" id="submit">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Login in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
